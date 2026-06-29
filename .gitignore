@@ -1,0 +1,5 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+.project.godot.export.bak
+.DS_Store

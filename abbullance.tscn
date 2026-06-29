@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://exqiswmeqk3l"]
+
+[ext_resource type="PackedScene" uid="uid://2b6236w7sefr" path="res://assets/kenney_car-kit/Models/GLB format/ambulance.glb" id="1_4kjiy"]
+
+[node name="Node3D" type="Node3D" unique_id=1400015520]
+
+[node name="ambulance" parent="." unique_id=20587541 instance=ExtResource("1_4kjiy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3757749, 2.9574513, 5.410059)

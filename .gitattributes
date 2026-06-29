@@ -1,0 +1,2 @@
+# Windows export exceeds GitHub's 100 MB file limit.
+export/*.exe filter=lfs diff=lfs merge=lfs -text

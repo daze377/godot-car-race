@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://ckee5bm6ngur8"]
+
+[ext_resource type="PackedScene" uid="uid://cwsv7hbrf7kk8" path="res://assets/kenney_car-kit/Models/GLB format/race.glb" id="1_auceb"]
+
+[node name="race" unique_id=2088699580 instance=ExtResource("1_auceb")]

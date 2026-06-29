@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://enmvkqflndj0"]
+
+[ext_resource type="PackedScene" uid="uid://dml6lo4gv7uyi" path="res://assets/kenney_car-kit/Models/GLB format/suv.glb" id="1_t8eya"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2p52l"]
+size = Vector3(1, 1.5, 3)
+
+[node name="suv" unique_id=1818925389 instance=ExtResource("1_t8eya")]
+
+[node name="RigidBody3D" type="RigidBody3D" parent="body" parent_id_path=PackedInt32Array(1698374223) index="1" unique_id=1338544243]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="body/RigidBody3D" index="0" unique_id=2128466005]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.040951014, 0.44782794, -0.0615592)
+shape = SubResource("BoxShape3D_2p52l")
